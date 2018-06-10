@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="15dp"
+    android:layout_gravity="center_horizontal"
+    tools:context=".ProductType">
+
+    <TableRow>
+
+        <TextView
+            android:text="PRODUCT ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginRight="10dp"/>
+
+        <EditText
+            android:id="@+id/productid"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:width="200px"
+            android:inputType="number"
+            android:hint="Enter Product Id"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="PRODUCT TYPE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginRight="10dp"/>
+
+        <EditText
+            android:id="@+id/ptype"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:width="200px"
+            android:hint="Enter Product Name"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="Enter In Database"
+            android:id="@+id/enterdb"
+            android:layout_column="2"
+            android:layout_marginEnd="100dp"/>
+    </TableRow>
+
+</TableLayout>
+
+

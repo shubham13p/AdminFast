@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="15dp"
+    android:layout_gravity="center_horizontal"
+    tools:context=".Product">
+
+    <TableRow>
+
+        <TextView
+            android:text="PRODUCT ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginRight="10dp"/>
+
+        <EditText
+            android:id="@+id/pid"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:width="200px"
+            android:inputType="number"
+            android:hint="Enter Product Id"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="NAME"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginRight="10dp"/>
+
+        <EditText
+            android:id="@+id/pname"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:width="200px"
+            android:hint="Enter Product name"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:text="RACK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginRight="15dp"/>
+
+        <Spinner
+            android:id="@+id/rackno"
+            android:layout_width="20dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="10dp"
+
+            android:minWidth="200px"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:text="PRODUCT TYPE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginRight="15dp"/>
+
+        <Spinner
+            android:id="@+id/producttype"
+            android:layout_height="35dp"
+            android:layout_width="20dp"
+            android:layout_marginRight="10dp"
+            android:entries="@array/product_type"
+            android:minWidth="200px"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="PARTITION"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginRight="10dp"/>
+
+        <Spinner
+            android:id="@+id/partitionno"
+            android:layout_height="35dp"
+            android:layout_width="20dp"
+            android:layout_marginRight="10dp"
+            android:entries="@array/partition"
+            android:minWidth="200px"/>
+
+    </TableRow>
+
+
+    <TableRow>
+        <TextView
+            android:text="LATITUDE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginRight="10dp"/>
+
+        <EditText
+            android:id="@+id/lati"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:width="200px"
+            android:inputType="numberSigned|numberDecimal"
+            android:hint="Enter Product Latitude"/>
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:text="LONGITUDE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginRight="10dp"/>
+
+        <EditText
+            android:id="@+id/longi"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:width="200px"
+            android:inputType="numberSigned|numberDecimal"
+            android:hint="Enter Product Longitude"/>
+
+    </TableRow>
+
+
+
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="Enter To Database"
+            android:id="@+id/enterdb"
+            android:layout_column="2"
+            android:layout_marginEnd="100dp"/>
+    </TableRow>
+
+</TableLayout>
+
+

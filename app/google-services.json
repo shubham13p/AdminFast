@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "855177300719",
+    "firebase_url": "https://admin-2463d.firebaseio.com",
+    "project_id": "admin-2463d",
+    "storage_bucket": "admin-2463d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855177300719:android:ae705feab2397bb0",
+        "android_client_info": {
+          "package_name": "com.example.shubhampatel.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855177300719-57hckaf56h3pt345et7t6dmqgfvsst4g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shubhampatel.admin",
+            "certificate_hash": "92b93b275de7b094a7cdfeaae9d135754dfb8a3d"
+          }
+        },
+        {
+          "client_id": "855177300719-th6432m3tc7i1s50q5lbn7oslruh5hh9.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "855177300719-th6432m3tc7i1s50q5lbn7oslruh5hh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp7a9D6nfg3uohTUXGQm9KSPnqzhV26ls"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855177300719-th6432m3tc7i1s50q5lbn7oslruh5hh9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

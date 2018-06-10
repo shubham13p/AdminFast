@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="15dp"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="RACK INFORMATION"
+            android:id="@+id/rack"
+            android:layout_column="2"
+            android:layout_marginEnd="0dp"/>
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="PRODUCT TYPE INFORMATION"
+            android:id="@+id/ptypebutton"
+            android:layout_column="2"
+            android:layout_marginEnd="0dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="PRODUCT INFORMATION"
+            android:id="@+id/product"
+            android:layout_column="2"
+            android:layout_marginEnd="0dp"/>
+    </TableRow>
+
+</TableLayout>
+
+
